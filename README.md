@@ -1,4 +1,4 @@
-# Convert images to Fivemanage from Imgur
+# Migrate images to Fivemanage from Imgur
 
 ## ⚠️ IMPORTANT!! ⚠️
 
