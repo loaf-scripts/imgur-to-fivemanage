@@ -10,7 +10,7 @@ Make a backup of your database before running this script, in case anything goes
 2. Add the script to your server.cfg
 3. Set your Fivemanage tokens in the config.json file
 4. Run the `lookup.sql` file in your database
-5. Type `ensure imgur-to-fivemanage` in your server console (txAdmin)
+5. Type `refresh` then `ensure imgur-to-fivemanage` in your server console (txAdmin)
 
 ## Notes
 
