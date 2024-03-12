@@ -1,0 +1,11 @@
+{
+	"photoToken": "YOUR_TOKEN",
+	"videoToken": "YOUR_TOKEN",
+
+	"requestsPerMinute": 60,
+
+	"extensions": {
+		"image": ["jpg", "jpeg", "png"],
+		"video": ["mp4", "mov", "webm"]
+	}
+}

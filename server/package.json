@@ -1,0 +1,30 @@
+{
+    "name": "imgur-to-fivemanage",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "build": "esbuild server.ts --bundle --platform=node --target=node14 --outfile=dist/index.js --external:@babel/preset-typescript/package.json --external:@babel/plugin-transform-modules-commonjs --external:@babel/plugin-proposal-export-namespace-from",
+        "watch": "pnpm build --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@overextended/oxmysql": "^1.3.0",
+        "node-fetch": "^3.3.2",
+        "typescript": "^5.3.3"
+    },
+    "devDependencies": {
+        "@citizenfx/server": "2.0.7436-1",
+        "@types/node": "^20.11.17",
+        "esbuild": "0.20.0"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "singleQuote": true,
+        "printWidth": 140,
+        "semi": false,
+        "quoteProps": "preserve",
+        "trailingComma": "none"
+    }
+}
